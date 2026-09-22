@@ -1,0 +1,626 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/SunsetBG.png') center center fixed;
+	background-size: 100%;
+	font-family: "Iosevka Charon", monospace;
+	color: #ffe8b4
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	   background: rgb(94 59 97 / .5);
+    border: 2px solid #f0be4e!important;
+    box-shadow: rgb(95 85 112 / .5) 0px 0px 90px 50px inset, 1px 1px 5px #000 !important;
+    border-radius: 5px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: linear-gradient(to bottom, #e9bf84,#af4949);
+	 border:2px solid #f0be4e!important;
+	border-top: none;
+	color: #ffe8b4;
+    text-shadow: 1px 1px 2px #560b0b!important;
+	border-radius: 5px;
+}
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+	background: linear-gradient(to bottom, #e9bf84,#904608);
+	border-bottom: 2px solid #f0be4e!important;
+	color: #ffe8b4;
+	border-radius: 5px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #ffe8b4 !important;
+    text-shadow: 1px 1px 3px rgb(117 65 15)!important;
+	border-radius: 5px;
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: rgba(1, 1, 1, 0) !important;
+	border-bottom: none;
+	color: #fffcd9 !important;
+    text-shadow: 1px 1px 1px #ffffffa3!important;
+	
+    transition: 1s
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: linear-gradient(to bottom, #e9bf84,#af4949);
+	 border:2px solid #f0be4e!important;
+	border-radius: 5px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #ffe8b4;
+    text-shadow: 1px 2px 2px #560b0b!important;
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445)";
+        color: #ffe8b4;
+     text-shadow: 1px 2px 2px #560b0b!important;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: linear-gradient(to bottom, #ffe8b4, #af4949)!important;
+        border: none !important;
+	border-radius: 5px!important;
+	color: #fff0e1 !important;   
+    text-shadow: 1px 1px 1px #d35e5e!important;
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+
+button.button, button.button:hover {
+	background: linear-gradient(to bottom, #ffe8b4, #af4949);
+          color: #fff!important;
+    text-shadow: 1px 1px 4px #d35e5e;
+    border-radius: 5px;
+    border: 2px solid #c670a4!important;
+}
+.btn.btn-default.button{
+background: linear-gradient(to bottom, #ffe8b4, #af4949);
+          color: #fff!important;
+    text-shadow: 1px 1px 4px #d35e5e;
+    border-radius: 5px;
+    border: 2px solid #c670a4!important;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: linear-gradient(to bottom, #796d9b, #733466);
+	border: 1px solid #fff;
+	color: #fffcd9;
+     text-shadow: 1px 1px 4px #d35e5e;
+	border-radius: 5px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #ffe8b4;
+	font-size: 90px;
+	text-align: center;
+       font-family: "Iosevka Charon", monospace;
+     text-shadow: 2px 2px 1px #af4949
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #ffe8b4;
+	font-size: 24px;
+	text-align: center;
+    text-shadow: 2px 2px 1px #8f2929;
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #ffe8b4 !important;
+	font-size: 14px !important;
+    text-shadow: 2px 2px 1px #8f2929;
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #ffe8b4 !important;
+     text-shadow: 2px 2px 1px #8f2929;
+        font-size: 26px !important;
+        font-family: "Iosevka Charon", monospace;
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: linear-gradient(to bottom, #de9e5b, #863316)!important;
+	box-shadow: none !important;
+	border:2px solid #f0be4e!important;
+	color: #ffe8b4 !important;
+    text-shadow: 1px 1px 1px #8f2929;
+	border-radius: 5px
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: linear-gradient(to bottom, #de9e5b, #51132a);
+	color: #fff !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: linear-gradient(to bottom, #96709e, #540c58);
+	color: #ffe8b4 !important;
+	border-radius: 0px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #ffe8b4 !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background:      
+        linear-gradient(to bottom, #5E244E, #E68457) !important;
+        color: #ffe8b4 !important;
+     text-shadow: 1px 1px 1px #8f2929;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: linear-gradient(to bottom, #E68457, #d4ab4f) !important;
+       color: #fff !important;
+     text-shadow: 1px 1px 2px #8f2929;
+	border: none !important
+      
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: linear-gradient(to bottom, #ffe8b4, #af4949)!important;
+        color: #fff !important;
+     text-shadow: 1px 1px 1px #871919;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #fef7ff !important;
+     text-shadow: 1px 1px 1px #871919;
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: linear-gradient(to bottom, #ffe8b4, #af4949)!important;
+        color: #ffe8b4 !important;
+    text-shadow: 1px 1px 1px #871919;
+	border: none !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background: linear-gradient(to bottom, rgb(157 109 188 / .5), rgb(231 133 53 / .5))!important;
+	border: 2px ridge #834a16 !important;
+ 
+	border-collapse: separate;
+	border-radius: 5px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: linear-gradient(to bottom, #ffe8b4, #af4949)!important;
+	color: #fff !important;
+    
+    text-shadow: 1px 1px 1px #871919;
+	border-radius: 5px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+	background: linear-gradient(to bottom, #96709e, #4a174b)!important;
+        color: #ffe8b4;
+    text-shadow: 1px 1px 1px #871919;
+    border: 2px ridge #95682b;
+	border-radius: 5px!important
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: rgba(37, 21, 60, .5);
+	border: 2px solid #6b5e8f !important;
+	border-radius: 5px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: linear-gradient(to bottom, rgb(150 112 158 / .5), rgb(74 23 75 / .5))!important;
+	color: #ffe8b4 !important;
+    text-shadow: 1px 1px 1px #871919;
+	border: 1px solid #ffcd71 !important;
+	border-radius: 5px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: linear-gradient(to bottom, rgb(150 112 158 / .5), rgb(38 19 87 / .5))!important;
+	border: none;
+	border-radius: 5px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: #e4926945;
+        border-radius: 0px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: linear-gradient(to bottom, rgb(150 112 158 / .5), rgb(74 23 75 / .5))!important;
+	border: none !important;
+	border-radius: 5px !important;
+	color: #ffe8b4 !important;
+	box-shadow: none !important;
+	text-shadow: 1px 1px 1px #871919;
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #ffe8b4 !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #ffd8a0 !important
+}
+
+
+
+
+/* BOX CONTAINER */
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #46136300
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #490e63;
+	border-radius: 0px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_02.png') !important;
+    	height: 155px;	
+	width:250px;
+
+        
+}
+
+
+a[href$="541376"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/magichour.png') !important
+}
+a[href$="541378"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/magichour.png') !important
+}
+
+a[href$="433593"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/magichour.png') !important
+}
+a[href$="541377"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png') !important
+}
+a[href$="542314"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png') !important
+}
+a[href$="542315"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png') !important
+}
+
+
+a[href$="lionoverview.php?id=198181"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_02.png') !important
+}
+
+
+a[href$="unsorted.php?id=198181"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_02.png') !important
+}
+
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+.pagedoll {
+    position: fixed;
+    bottom: -20px;
+    left: 84%; 
+    width: 320px;
+    height: 310px;
+    background-image: url('https://cdn.discordapp.com/attachments/1541505912131559495/1544789087154868275/image.png?ex=6ab18373&is=6ab031f3&hm=067f6dfb5c0518ff45b97c1a5364de688c1cb554c5dbb546e40b6ee0059bcf20&');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0px 0px 5px rgba(10, 2, 13, .5));
+    z-index: 10000000;
+ 
+   
+}
